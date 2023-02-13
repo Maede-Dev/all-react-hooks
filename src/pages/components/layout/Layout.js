@@ -11,6 +11,9 @@ const Layout = () => {
           <li>
             <Link to="/UseState">useState</Link>
           </li>
+          <li>
+            <Link to="/UseReducer">UseReducer</Link>
+          </li>
         </ul>
       </nav>
 

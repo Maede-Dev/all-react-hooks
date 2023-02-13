@@ -6,6 +6,7 @@ import Layout from "./pages/components/layout/Layout";
 import Home from "./pages/components/home/Home";
 import UseState from "./pages/components/useState/UseState";
 import NoPage from "./pages/components/404/NoPge";
+import UseReducer from "./pages/components/useReducer/UseReducer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="useState" element={<UseState />} />
+        <Route path="UseReducer" element={<UseReducer />} />
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
