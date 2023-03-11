@@ -18,6 +18,9 @@ const Layout = () => {
             <Link to="/UseEffect">UseEffect</Link>
           </li>
           <li>
+            <Link to="/UseLayout">UseLayout</Link>
+          </li>
+          <li>
             <Link to="/RefTutorial">UseRef</Link>
           </li>
         </ul>
