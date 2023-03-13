@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  align-items: center;
+  margin: 200px 50%;
+  .btn {
+    margin: 2%;
+  }
+  .lastName {
+    margin-top: 20px;
+  }
+  .inputName {
+    border-radius: 5px;
+    border-color: red;
+  }
+
+  .inputLastName {
+    border-radius: 5px;
+    border-color: blue;
+  }
+}

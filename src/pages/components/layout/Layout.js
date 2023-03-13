@@ -23,6 +23,9 @@ const Layout = () => {
           <li>
             <Link to="/RefTutorial">UseRef</Link>
           </li>
+          <li>
+            <Link to="/UseImperativeHandle">UseImperativeHandle</Link>
+          </li>
         </ul>
       </nav>
 
