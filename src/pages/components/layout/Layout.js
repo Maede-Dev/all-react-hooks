@@ -26,6 +26,9 @@ const Layout = () => {
           <li>
             <Link to="/UseImperativeHandle">UseImperativeHandle</Link>
           </li>
+          <li>
+            <Link to="/UseContext">UseContext</Link>
+          </li>
         </ul>
       </nav>
 
