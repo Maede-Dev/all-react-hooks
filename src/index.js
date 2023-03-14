@@ -12,6 +12,7 @@ import RefTutorial from "./pages/components/UseRef/RefTutorial";
 import UseLayout from "./pages/components/useLayout/UseLayout";
 import UseImperativeHandle from "./pages/components/UseImperativeHandle/UseImperativeHandle";
 import UseContext from "./pages/components/UseContext/UseContext";
+import UseMemo from "./pages/components/UseMemo/UseMemo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +27,7 @@ root.render(
         <Route path="RefTutorial" element={<RefTutorial />} />
         <Route path="UseImperativeHandle" element={<UseImperativeHandle />} />
         <Route path="UseContext" element={<UseContext />} />
+        <Route path="UseMemo" element={<UseMemo />} />
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
