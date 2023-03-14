@@ -10,7 +10,8 @@ const UseMemo = () => {
     axios
       .get("http://jsonplaceholder.typicode.com/comments")
       .then((response) => {
-        setData(response.data);
+        console.log(response);
+        setData(response.data?.slice(0, 10));
       });
   }, []);
 
@@ -18,9 +19,9 @@ const UseMemo = () => {
     if (!comments) return null;
 
     let longestName = "";
-    for (let i = 0; (i = comments.length); i++) {
-      let currentName = comments[i].name;
-      if ((currentName.length = longestName.length)) {
+    for (let i = 0; i < comments?.length; i++) {
+      let currentName = comments[i]?.name;
+      if (currentName && currentName?.length === longestName?.length) {
         longestName = currentName;
       }
     }
