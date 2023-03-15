@@ -13,6 +13,7 @@ import UseLayout from "./pages/components/useLayout/UseLayout";
 import UseImperativeHandle from "./pages/components/UseImperativeHandle/UseImperativeHandle";
 import UseContext from "./pages/components/UseContext/UseContext";
 import UseMemo from "./pages/components/UseMemo/UseMemo";
+import UseCallBack from "./pages/components/UseCallBack/UseCallBack";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,6 +29,7 @@ root.render(
         <Route path="UseImperativeHandle" element={<UseImperativeHandle />} />
         <Route path="UseContext" element={<UseContext />} />
         <Route path="UseMemo" element={<UseMemo />} />
+        <Route path="UseCallBack" element={<UseCallBack />} />
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
